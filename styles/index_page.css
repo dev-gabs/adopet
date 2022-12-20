@@ -1,0 +1,98 @@
+/* Body */
+
+body {
+  background-color: var(--azul);
+}
+
+/* Main */
+
+main {
+  width: 24.8rem;
+  margin-inline: auto;
+  margin-top: 8.8rem;
+
+  text-align: center;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h3 {
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+main .p_768 {
+  display: none;
+}
+
+.buttons {
+  margin-block: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.buttons a.button {
+  width: 18rem;
+
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+main img {
+  transform: translateX(-2.3rem);
+}
+
+@media (min-width: 768px) {
+  /* General */
+
+  main h3 {
+    margin-top: 4rem;
+    margin-bottom: 2.4rem;
+
+    font-size: 2.8rem;
+  }
+
+  main p {
+    font-size: 1.8rem;
+  }
+
+  /* Main */
+
+  main {
+    width: 34.4rem;
+    margin-top: 17.3rem;
+  }
+
+  main .logo {
+    height: 6.2rem;
+    width: auto;
+  }
+
+  main .p_768 {
+    display: initial;
+  }
+
+  main .p_360 {
+    display: none;
+  }
+  
+  .buttons {
+    margin-top: 3.8rem;
+    margin-bottom: 4rem;
+  }
+
+  .buttons a.button{
+    width: 34.4rem;
+  }
+
+  main img {
+    height: 42.2rem;
+    width: auto;
+
+    transform: translateX(-1.5rem);
+  }
+}

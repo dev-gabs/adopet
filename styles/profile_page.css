@@ -1,0 +1,136 @@
+/* Body */
+
+body {
+  background-color: white;
+}
+
+/* Bg SVGs */
+
+.bgTopLeft {
+  z-index: -1;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  margin-top: 8.8rem;
+  padding-inline: 2.4rem;
+
+  text-align: center;
+  color: var(--azul);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > p {
+  width: 24.7rem;
+  margin-bottom: 2.4rem;
+}
+
+/* Forms */
+
+form {
+  margin-bottom: 1.6rem;
+  padding: 3.2rem 1.6rem;
+
+  border-radius: 1rem;
+
+  text-align: left;
+
+  background-color: var(--cinza-claro-fundos);
+}
+
+form label {
+  margin-bottom: 0.8rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+form #foto {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form #foto img {
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 0.4rem;
+}
+
+form #foto a {
+  text-decoration: none;
+  color: var(--coral);
+}
+
+input,
+textarea {
+  margin-bottom: 1.6rem;
+  padding-inline: 1.6rem;
+
+  background-color: white;
+
+  font-family: 'Poppins';
+  text-align: left;
+  color: hsla(240, 5%, 48%, 1);
+
+  border-radius: 0.6rem;
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Poppins';
+  color: hsla(0, 0%, 74%, 1);
+}
+
+textarea {
+  width: 100%;
+  height: 17.2rem;
+  margin-bottom: 0;
+  padding-block: 1.6rem;
+
+  border: 0;
+
+  resize: none;
+}
+
+.submit {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+input.button {
+  width: 14.8rem;
+  margin-top: 3.2rem;
+  margin-bottom: 0;
+  padding: 0;
+
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-top: 18.5rem;
+    width: 52.4rem;
+    margin-inline: auto;
+  }
+  main p {
+    width: auto;
+    margin-bottom: 2.6rem;
+  }
+}

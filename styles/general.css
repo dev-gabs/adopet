@@ -1,0 +1,97 @@
+/* General */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --azul: #3772ff;
+  --verde: #36d6ad;
+  --coral: #fc7071;
+  --creme: #fcf0e3;
+  --cinza: #737380;
+  --cinza-claro: #bcbcbc;
+  --cinza-claro-fundos: #f7f7f7;
+
+  font-size: 62.5%;
+}
+
+body {
+  height: min(100vh);
+
+  font-family: 'Poppins';
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 6.8rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 4.2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'IBM Plex Sans';
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+p.small {
+  font-size: 1.4rem;
+}
+
+p.caption {
+  font-size: 1.2rem;
+}
+
+.button {
+  padding-block: 0.8rem;
+
+  background-color: var(--coral);
+  border-radius: 0.6rem;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+
+  transition: filter 150ms;
+}
+
+.button:hover {
+  filter: brightness(110%);
+}
+
+.button:active {
+  filter: saturate(90%);
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  height: 4rem;
+  width: 100%;
+
+  border: 0;
+
+  text-align: center;
+}

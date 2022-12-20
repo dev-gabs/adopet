@@ -1,0 +1,52 @@
+/* Bg SVGs */
+
+.bgTopLeft {
+  z-index: -1;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bgCenterRight {
+  z-index: -1;
+
+  position: absolute;
+  top: 19.9rem;
+  right: 0;
+}
+
+.bgCenterLeft {
+  z-index: -1;
+
+  position: absolute;
+  top: 36.8rem;
+  left: 0;
+}
+
+.patas {
+  z-index: -1;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .bgTopLeft {
+    width: 56.097rem;
+    height: auto;
+  }
+
+  .bgCenterRight {
+    height: 66.4rem;
+    width: auto;
+
+    top: 26.8rem;
+  }
+
+  .patas {
+    width: 22.4rem;
+    height: auto;
+  }
+}

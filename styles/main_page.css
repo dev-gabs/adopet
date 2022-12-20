@@ -1,0 +1,126 @@
+/* Body */
+
+body {
+  background-color: white;
+}
+
+/* Bg SVGs */
+
+.bgTopLeft {
+  z-index: -1;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  margin-top: 7.2rem;
+
+  text-align: center;
+  color: var(--azul);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > p {
+  width: 22.6rem;
+  margin-bottom: 3.2rem;
+}
+
+/* Sections */
+
+main .cards {
+  z-index: -2;
+}
+
+main section {
+  width: 100%;
+  margin-bottom: 1.6rem;
+
+  padding-block: 1.6rem;
+
+  text-align: left;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  background-color: var(--cinza-claro-fundos);
+}
+
+main section:last-child {
+  margin-bottom: 0;
+}
+
+section .content {
+  width: 14.5rem;
+  margin-right: 2.7rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+section > img {
+  width: 14.8rem;
+  height: 14.8rem;
+
+  margin-left: 2.4rem;
+}
+
+section h4 {
+  margin-bottom: 0.8rem;
+
+  color: var(--azul);
+}
+
+section p {
+  color: var(--cinza);
+}
+
+section .content > p.caption {
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+section .contact {
+  width: 14rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+section .contact .caption {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 18.8rem;
+  }
+
+  main section {
+    width: 34.4rem;
+    margin-bottom: 0;
+  }
+
+  main .cards {
+    width: auto;
+    margin-bottom: 3.2rem;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+  }
+
+}
